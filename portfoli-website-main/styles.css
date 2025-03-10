@@ -1,0 +1,46 @@
+:root{
+    --bgcolor1: cyan;
+    --bgcolor2:rgb(142, 176, 30);
+}
+#sample     
+{
+        position:absolute;
+        border: 1px solid red;
+        height: 50%;
+        width: 30%;
+        border-radius:25%;
+        display:flex;
+        background:linear-gradient(
+        var(--bgcolor1),
+        var(--bgcolor2));
+}
+p{
+    height:30%;
+    width:20%;
+    color:red;
+    display:flex;
+    border:1px solid black;
+    background-color:blue;
+    border-radius:15px;
+    position:absolute;
+    margin-top:2px;
+    margin-left:0;
+
+}
+div >p , #two
+{
+    position :relative;
+    top:30%;
+    left:0%;
+    display:flex;
+}
+body >div > p:hover
+{
+    background-color:pink;
+}
+body,#sample
+{
+    background-color:linear-gradient(
+        var(--bgcolor1),
+        var(--bgcolor2));
+}
